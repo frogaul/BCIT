@@ -97,6 +97,7 @@
 		DF5D01522005C9920060B0FF /* check_user_age */ = {
 			isa = PBXGroup;
 			children = (
+				DF5D0181200692A70060B0FF /* Images */,
 				DF5D01532005C9920060B0FF /* AppDelegate.swift */,
 				DF5D01552005C9920060B0FF /* ViewController.swift */,
 				DF5D01572005C9920060B0FF /* Main.storyboard */,
@@ -123,6 +124,13 @@
 				DF5D01752005C9920060B0FF /* Info.plist */,
 			);
 			path = check_user_ageUITests;
+			sourceTree = "<group>";
+		};
+		DF5D0181200692A70060B0FF /* Images */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Images;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
