@@ -35,13 +35,19 @@ class ViewController: UIViewController {
     override func viewDidLoad() {
         super.viewDidLoad()
         bbtvImage.image = UIImage(named: "BBTV_Logo")
+        
+        let tapRecognizer = UITapGestureRecognizer()
+        tapRecognizer.addTarget(self, action: #selector(ViewController.didTapView))
+        self.view.addGestureRecognizer(tapRecognizer)
     }
 
     override func didReceiveMemoryWarning() {
         super.didReceiveMemoryWarning()
         // Dispose of any resources that can be recreated.
     }
-
-
+    
+    @objc func didTapView(){
+        self.view.endEditing(true)
+    }
 }
 
